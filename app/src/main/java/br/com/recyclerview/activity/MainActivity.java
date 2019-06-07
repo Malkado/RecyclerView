@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
     }
     public void CriarUsers(){
-        Users users = new Users("email", "nome","1");
+        Users users;
+        users= new Users("email", "nome","1");
         this.ListaUsers.add(users);
         users = new Users("email2", "nome2", "2");
         this.ListaUsers.add(users);
